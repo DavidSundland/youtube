@@ -1,0 +1,80 @@
+body *
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	padding: 50px;
+	color: white;
+	text-shadow: 1px 1px black;
+	background-color: #e32c25;
+}
+
+h1
+{
+		text-align: center;
+}
+
+h2, .js-buttonHole
+{
+	text-align: center;
+}
+
+form
+{
+	text-align: center;
+}
+
+input
+{
+	width: 30%;
+	height: 20px;
+	margin: 50px;
+}
+
+button
+{
+	border-radius: 10px;
+	padding: 5px;	
+}
+
+input, button
+{
+	box-shadow: 5px 5px 3px #191717;
+}
+
+.js-search-results img, .js-search-results iframe
+{
+	width: 30%;
+	margin: 10px 9%;
+}
+
+.js-view-video
+{
+	visibility: hidden;
+	z-index: -1;
+	position: fixed;
+	top: 100px;
+	margin: 0 auto;
+	left: 50%; 
+	margin-left: -400px;
+}
+
+.videoVisible
+{
+	visibility: visible;
+	z-index: 3;
+	text-align: center;
+}
+
+.videoVisible iframe
+{
+	box-shadow: 10px 10px 5px #191717;
+}
+
+.videoVisible button
+{
+	margin-top: 12px;
+	font-size: 1.4em;
+}
